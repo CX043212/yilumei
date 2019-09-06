@@ -1,0 +1,241 @@
+/* 
+.head{
+  background: url("../images/banner.jpg") no-repeat;
+  background-size:100% 100%;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/banner.jpg', sizingMethod='scale');
+  width: 100%; 
+  height: 800px;
+} */
+.nav-left{
+  float: left;
+}
+.nav-title{
+  font-size:62px;
+  font-weight: bolder;
+  color:#f1f0f0;
+  line-height: 96px;
+  /* margin-bottom:27px; */
+  margin-bottom:40px;
+  margin-top:65px;
+  text-shadow: 10px 7px 20px #000;
+  letter-spacing: 2px;
+}
+.nav-title>span{
+  color:#f1a232;
+}
+/* .nav-content{
+  font-size:12px;
+  color:#ffffff;
+  width:680px;
+  line-height: 20px;
+  margin-top:34px;
+  letter-spacing: 1px;
+} */
+.nav-content{
+    font-size: 14px;
+    color: #ffffff;
+    width: 680px;
+    line-height: 30px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+ .scale-bg{
+  background:#1a212d;
+  height: 800px;
+  width: 100%;
+}
+.scale{
+ width:1200px;
+ margin:0 auto;
+}
+.map-title{
+  position:absolute;
+  padding-top:80px;
+  padding-left:20px;
+  z-index:10;
+}
+.shop-one{
+  background:#0f131a;
+  background-color:rgba(13,16,22,0.8) !important;
+  height:198px;
+  filter:alpha(opacity=80);
+  width:518px;
+  padding:39px 28px 48px 28px;
+  color:#ffffff;
+  font-size:17px;
+  letter-spacing:1px;
+  position:static;
+  border-top:1px solid #464f5b;
+  border-left:1px solid #464f5b;
+  border-right:1px solid #464f5b;
+}
+.shop-one>.shop{
+  font-size:24px;
+  border-left:6px solid #ffb537;
+  padding-left:20px;
+  font-weight:800;
+  position: relative;
+  z-index:20;
+}
+.shop-one>.city{
+  line-height:30px;
+  margin-top:27px;
+  position: relative;
+  
+}
+.shop-one>.city>span{
+  line-height:30px;
+  margin-top:27px;
+  color:#f0a131;
+  font-weight:800;
+}
+.shop-two,.shop-three,.shop-four,.shop-five{
+  letter-spacing:1px;
+  height:46px;
+  width:518px;
+  line-height:46px;
+  border-top:1px solid #464f5b;
+  border-left:1px solid #464f5b;
+  border-right:1px solid #464f5b;
+}
+.one{
+  padding-left:28px;
+  color:#ffffff;
+  
+}
+.two{
+  color:#f0a131;
+  font-weight:800;
+  padding-right:29px;
+  float:right;
+}
+.shop-two,.shop-four{background:#262d3a;}
+.shop-three,.shop-five{background:#151920;}
+.shop-five{border-bottom:1px solid #464f5b;}
+.scale>img{
+  width:100%;
+  position: relative;;
+}
+.characteristic{
+  width:100%;
+  background:#f0f0f0;
+  height: 840px;
+}
+.ad {
+  clear:both;
+  width: 1200px;
+  margin: 0 auto;
+}
+.ad > p:first-child {
+  padding-top: 54px;
+  text-align: center;
+  font-size: 34px;
+  color: #323232;
+  font-weight: 800;
+}
+.ad >.ad-two{
+  line-height: 70px;
+  text-align: center;
+  font-size: 23px;
+  color: #999999;
+}
+.icon {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.ch{
+  width: 1201px;
+  margin:0 auto;
+}
+.char>li{
+   float:left;
+   position: relative;
+   /* transition: all  .25s  ease-in; */
+}
+.char>li:hover{
+  /* transform:translateY(-20px); */
+}
+.advantage{
+  background: url("../images/bg.jpg") no-repeat;
+  background-size:100% 100%; 
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod='scale');
+  /* height: 840px; */
+  width: 100%;
+  padding-bottom:90px;
+}
+.adv{
+  clear:both;
+  width: 1200px;
+  margin: 0 auto;
+}
+.adv> p:first-child {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 34px;
+  color: #ffffff;
+  font-weight: 800;
+}
+.adv > .adv-two {
+  line-height: 80px;
+  text-align: center;
+  font-size: 23px;
+  color: #575e67;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.superiority_tab tr{
+  background: #efeff4;
+}
+.tab_tt th {
+  background: #ffab34;
+  color:#1a212d;
+  font-weight: normal;
+  height:60px;
+  line-height:60px;
+  font-size: 16px;
+}
+.tab_con td {
+  font-size:14px;
+  padding:18px 20px 32px 20px;
+  vertical-align: top;
+}
+.superiority_tab tr:nth-child(even) {
+  background: #ffffff;
+}
+.left_tt {
+  background:url(../images/border-1.jpg) center bottom no-repeat #222f42;
+  color: #bcbec2;
+  font-size: 16px !important;
+  text-align: center;
+  width:200px;
+  vertical-align: middle !important;
+  padding:0 !important;
+}
+.first>td{
+  padding-bottom:14px !important;
+}
+.brand_cooperate {
+  background: #f0f0f0;
+  padding-bottom: 40px;
+}
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  padding-top:60px;
+}
+.brand_img {
+  overflow: hidden;
+}
+.brand_img img {
+  float: left;
+}
+.brand_center {
+  overflow: hidden;
+}
+.brand_center div {
+  float: left;
+  width: 400px;
+}

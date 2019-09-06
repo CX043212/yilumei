@@ -1,0 +1,128 @@
+
+   .ad-middle {
+    background: url("../images/background.jpg") no-repeat;
+    background-size:100% 100%; 
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/background.jpg', sizingMethod='scale');
+
+  }
+  /* .head {
+    background: url("../images/project.jpg") no-repeat;
+    height: 600px;
+    width: 100%;
+    background-size:100% 100%; 
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/project.jpg', sizingMethod='scale');
+  } */
+  .nav-left{
+    float: left;
+  }
+  .nav-title{
+    font-size:68px;
+    font-weight: 800;
+    color:#f1f0f0;
+    /* width:480px; */
+    margin-top: 100px;
+    text-shadow: 10px 7px 20px #4d311d;
+    letter-spacing: 2px;
+  
+  }
+ .title-english{
+   color:#beb0a6;
+   font-size:32px;
+   font-weight: 800;
+   margin-bottom: 32px;
+   margin-top: 32px;
+ }
+  .ad {
+    clear:both;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .ad > p:first-child {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 34px;
+    color: #323232;
+    font-weight: 800;
+  }
+  .ad >.ad-two {
+    line-height: 80px;
+    text-align: center;
+    font-size: 26px;
+    color: #999999;
+  }
+  .icon {
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .pic>img:first-child,.pic>.pic-two{
+      margin-right:29px;
+      float:left;
+  }
+.pic{
+      padding-bottom:80px;
+}
+.video{
+    width:100%;
+    background:#1b1b1b;
+    height: 600px;
+}
+.video>.ad {
+  clear:both;
+  width: 1200px;
+  margin: 0 auto;
+}
+.video>.ad > p:first-child {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 34px;
+  color: #ffb839;
+  font-weight: 800;
+}
+.video>.ad >.ad-two{
+  line-height: 80px;
+  text-align: center;
+  font-size: 26px;
+  color: #999999;
+}
+.icon {
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.videolist{ 
+  position:relative; 
+  float:left; 
+  width:286px;
+  margin-right:18px;
+  margin-bottom:99px; 
+}
+.videolist:hover{ cursor: pointer; }
+.videos{ 
+  display:none;
+  border: 1px solid #080808; 
+  position:fixed; 
+  left:50%; 
+  top:50%; 
+  margin-left:-320px; 
+  margin-top:-210px; 
+  z-index:10; 
+  width:640px;
+  height:360px; 
+  }
+.vclose { 
+  position:absolute;
+  right:1%; 
+  top:1%; 
+  border-radius:100%; 
+  cursor: pointer; 
+  z-index:0;
+}
+.four{
+  margin-right:0 !important;
+}
+.container{
+ width:1200px !important;
+}
+
+
+
+

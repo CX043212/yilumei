@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>一路傳媒</title>
+    <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+</head>
+<body>
+  <div style="height:600px;">
+      <div style="position: absolute;">
+          <img src="../images/project.png" style="width: 100%; height: 600px;">
+      </div>
+    <div class="head" style="position: absolute;left:50%;margin-left:-600px;">
+        <div class="nav">
+            <div class="nav-left">
+                <img src="../images/nav1.jpg" alt="">
+                <p class="nav-title">一路傳媒項目案例</p>
+                <p class="title-english">PROJECT CASE</p>
+                <img src="../images/border3.jpg" alt="">
+           </div>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="project.html" class="act">項目案例</a></li>
+                <li><a href="my.html">加入我們</a></li>
+                <li><a href="http://tpc.bjyltf.com/index">上傳素材</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+    <div class="ad">
+        <p>理髮店廣告</p>
+        <p class="ad-two"> BARBER ADVERTISEMENT</p>
+        <img src="../images/icon3.png" class="icon">
+        <div class="pic">
+          <img src="../images/ad_1.jpg" alt>
+          <img src="../images/ad_2.jpg" class="pic-two">
+          <img src="../images/ad_3.jpg" class="pic-three">
+        </div>
+      </div>
+      <div class="ad-middle">
+        <div class="ad">
+            <p style="color:#fff">樓宇廣告</p>
+            <p class="ad-two">BUILDING ADVERTISEMENT</p>
+            <img src="../images/icon.png" class="icon">
+            <div class="pic">
+              <img src="../images/ad_4.jpg" alt>
+              <img src="../images/ad_5.jpg" class="pic-two">
+              <img src="../images/ad_6.jpg" class="pic-three">
+            </div>
+          </div>
+      </div>
+      <div class="ad">
+        <p>衛生間廣告</p>
+        <p class="ad-two">TOILET ADVERTISEMENT</p>
+        <img src="../images/icon3.png" class="icon">
+        <div class="pic">
+          <img src="../images/ad_7.jpg" >
+          <img src="../images/ad_8.jpg" class="pic-two">
+          <img src="../images/ad_9.jpg" class="pic-three">
+        </div>
+      </div>
+      <div class="video">
+          <div class="ad">
+              <p>品牌案例</p>
+              <p class="ad-two">BRAND CASE</p>
+              <img src="../images/icon.png" class="icon">
+          <div class="container" style="margin:0;padding:0">
+            <div class="videolist" vpath="../images/dohia.png" ipath="video/dohia.mp4">
+              <img src="../images/dohia.png" width="286px" height="200px" />
+            </div>
+            <div class="videolist" vpath="../images/oppo.png" ipath="video/oppo.mp4">
+              <img src="../images/oppo.png" width="286px" height="200px" />
+            </div>
+            <div class="videolist" vpath="../images/tcl.png" ipath="video/tcl.mp4">
+              <img src="../images/tcl.png" width="286px" height="200px"/>
+            </div>
+            <div class="videolist four" vpath="../images/dog.png" ipath="video/dog.mp4" style="margin-right:0 ">
+              <img src="../images/dog.png" width="286px" height="200px" />
+            </div>
+            <div class="videos"></div>
+          </div>
+        </div>      
+    </div>
+    <div style="clear:both"></div>
+    <div class="footer">
+      <div class="footerCon">
+          <div class="left">
+              <p>聯繫我們</p>
+              <p class="left-two">CONTACT US</p>
+              <img src="../images/border.jpg">
+              <div class="list lift-one">
+                <span> 客服中心 :</span>
+                <span>（+852）26565599 </span>
+            </div>
+            <div class="list">
+                <span> 辦公室電話 :</span>
+                <span>（+852）24657878</span>
+            </div>
+              <div class="list">
+                  <span>招聘郵箱 :</span>
+                  <span>hr@16media.com</span>
+              </div>
+              <div class="list list-last">
+                  <span>面試地址 :</span>
+                  <span>香港新界沙田火炭坳背灣街34-36號豐盛工業中心B座10樓1007室</span>
+              </div>
+          </div>
+          <div class="down">
+              <img src="../images/download.png">
+              <p>掃碼了解詳情</p>
+          </div>
+      </div>
+      <div class="footer-bottom">一路撈（香港）有限公司 Copyright©2019 16media.com</div>
+  </div>
+</body>
+</html>
+<script src="../js/jquery.min.js"></script>
+<script>
+$('.videolist').each(function(){ 
+    $(this).click(function(){
+    var img = $(this).attr('vpath');
+    var video = $(this).attr('ipath');
+    if(navigator.userAgent.indexOf("MSIE 8.0")>0){
+      $('.videos').html("<embed id=\"video\" type='\"video\/mp4\"' style='width: 640px;height:406px;z-index:15' src='"+video+"' preload=\"auto\" allowscriptaccess=\"always\" type=\"application/x-shockwave-flash\" quality=\"high\"/ loop=\"loop\" windowlessVideo=\"true\" autostart=\"true\"><img onClick=\"close1()\" class=\"vclose\" src=\"../images/gb.png\" width=\"25\" height=\"25\"/>");
+    $('.videos').show();
+    }else{
+      $('.videos').html("<video id=\"video\" style='width: 640px;height:360px;object-fit:fill; 'src='"+video+"'  preload=\"auto\" autostart=\"true\" controls=\"controls\" autoplay=\"autoplay\" loop=\"loop\"></video><img onClick=\"close2()\" class=\"vclose\" src=\"../images/gb.png\" width=\"25\" height=\"25\"/>");
+    $('.videos').show();
+    }
+});
+})
+function close1(){
+    // $("#video").attr("src","");
+  
+    var v = document.getElementById('video');
+    //  document.execCommand('Refresh');
+    // $('.videos').html();  
+    $('.videos').css("display","none");
+    v.stop()
+}
+function close2(){
+    var v = document.getElementById('video');
+    // $("#video").attr("src","");
+    // $('.videos').css("display","none");
+    $('.videos').hide();
+    v.pause();
+    $('.videos').html();
+}
+</script>
